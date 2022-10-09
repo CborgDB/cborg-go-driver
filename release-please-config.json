@@ -1,0 +1,8 @@
+{
+  "separate-pull-request": true,
+  "packages": {
+    ".": {
+      "release-type": "go"
+    }
+  }
+}
