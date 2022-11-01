@@ -19,3 +19,9 @@ func EncodeUint64(v uint64) []byte {
 func EncodeUint(v uint64) []byte {
 	return encodeUint(v, 0x00)
 }
+
+// TODO
+func DecodeUint(e []byte) uint64 {
+	v, _ := headGetUint(e)
+	return v
+}
