@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/cborgdb/cborg-go-driver/pkg/cborg"
+	"github.com/cborgdb/cborg-go-driver/cborg"
 )
 
 func main() {

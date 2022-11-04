@@ -3,7 +3,7 @@ package cborg
 import (
 	"errors"
 
-	"github.com/cborgdb/cborg-go-driver/pkg/cbor"
+	"github.com/cborgdb/cborg-go-driver/cbor"
 )
 
 type Database struct {
