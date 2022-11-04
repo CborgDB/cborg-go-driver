@@ -1,6 +1,6 @@
 package cborg
 
-import "github.com/cborgdb/cborg-go-driver/pkg/cbor"
+import "github.com/cborgdb/cborg-go-driver/cbor"
 
 func encodeMessage(op OpCode, dbName *string, collName *string, old []byte, new []byte) ([]byte, error) {
 	msgWithoutLength := cbor.EncodeUint64(uint64(op))

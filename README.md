@@ -21,7 +21,7 @@ The CborgDB Go Driver is 🚧 still under development 🚧 and [CborgDB](https:/
 
 - Import
 
-`import "github.com/cborgdb/cborg-go-driver/pkg/cborg"`
+`import "github.com/cborgdb/cborg-go-driver/cborg"`
 
 ## Usage
 
@@ -39,7 +39,7 @@ package main
 import (
 	"os"
 
-	"github.com/cborgdb/cborg-go-driver/pkg/cborg"
+	"github.com/cborgdb/cborg-go-driver/cborg"
 )
 
 func main() {

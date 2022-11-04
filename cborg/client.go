@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/cborgdb/cborg-go-driver/pkg/cbor"
+	"github.com/cborgdb/cborg-go-driver/cbor"
 )
 
 type Client struct {
